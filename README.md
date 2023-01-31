@@ -1,7 +1,5 @@
 # TailwindCSS - Gulp - SASS
 
-[[_TOC_]]
-
 ## Install
 
 ```cmd:
