@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply text-base;
+  background: #000;
+}
+
+#bg-wgl {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+}
+#bg-wgl canvas {
+  max-width: 100vw;
+}
