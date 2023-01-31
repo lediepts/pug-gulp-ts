@@ -1,6 +1,6 @@
 # TailwindCSS - Gulp - SASS
 
- [[_TOC_]]
+[[_TOC_]]
 
 ## Install
 
@@ -12,11 +12,11 @@
 
 ### TailwindCSS
 
-  > ~/tailwind.config.js
+> ~/tailwind.config.js
 
 ### GULP
 
-  > ~/gulpfile.js
+> ~/gulpfile.js
 
 ## Browsers that we support
 
@@ -28,28 +28,32 @@
 
 ### Directory
 
-```:
-|-- rootFolder
-    |-- .browserslistrc
-    |-- .gitignore
-    |-- gulpfile.js
-    |-- package-lock.json
-    |-- package.json
-    |-- readme.md
-    |-- tailwind.config.js
-    |-- src
-        |-- pages
-        |   |--common
-        |   |   |--...
-        |   |--components
-        |   |   |--...
-        |   |--index.pug
-        |-- scss
-        |   |-- index.scss
-        |-- assets
-        |-- ts
-            |-- main.ts
-    |-- build
+```code
+  ├── .browserslistrc
+  ├── .gitignore
+  ├── gulpfile.js
+  ├── package-lock.json
+  ├── package.json
+  ├── readme.md
+  ├── tailwind.config.js
+  ├── src
+  │   ├── pages
+  │   │   ├── common
+  │   │   │   │...
+  │   │   │
+  │   │   ├── components
+  │   │   │   │...
+  │   │   │
+  │   │   └── index.pug
+  │   ├── scss
+  │   │   └── index.scss
+  │   ├── assets
+  │   │   ├── doc
+  │   │   ├── files
+  │   │   └── img
+  │   └── ts
+  │      └── main.ts
+  └── build
 ```
 
 ### Scripts
@@ -72,9 +76,9 @@
 
 ![Extension](./src/img/sc1.png =500x)
 
- 2. Class in html
+2.  Class in html
 
-- windowPC のキーボードで使いたいものをちょっと入力するとctrl+space下にPanelが表示される
+- windowPC のキーボードで使いたいものをちょっと入力すると ctrl+space 下に Panel が表示される
 
 ![class](./src/img/sc2.png =500x)
 
@@ -85,9 +89,9 @@
 ### Tailwind Docs
 
 `Ctrl + Shift + P`でコマンドパレットを開き、
-vsCodeから直接ドキュメントを検索することができる拡張機能
+vsCode から直接ドキュメントを検索することができる拡張機能
 
-![tailwind Docs](./src/img/preview.gif  =600x)
+![tailwind Docs](./src/img/preview.gif =600x)
 
 ## Reference
 
@@ -99,13 +103,13 @@ https://tailwindcss.com/
 
 https://tailwindcomponents.com/cheatsheet/
 
-- TailwindCSS作者のブログ記事
+- TailwindCSS 作者のブログ記事
 
 https://adamwathan.me/css-utility-classes-and-separation-of-concerns/
 
 (日本語翻訳: https://yuheiy.hatenablog.com/entry/2020/05/25/021342)
 
-- keyframeアニメーションGenerator
+- keyframe アニメーション Generator
 
 https://tail-animista.vercel.app/play/text/tracking-in/tracking-in-expand
 
