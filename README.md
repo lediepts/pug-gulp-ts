@@ -38,16 +38,18 @@
     |-- readme.md
     |-- tailwind.config.js
     |-- src
-        |-- index.html
+        |-- pages
+        |   |--common
+        |   |   |--...
+        |   |--components
+        |   |   |--...
+        |   |--index.pug
         |-- scss
-        |   |-- main.scss
-        |-- img
-        |-- js
-            |-- main.js
-            |-- libs
-                |-- index.js
-    |-- dist (development)
-    |-- build (production)
+        |   |-- index.scss
+        |-- assets
+        |-- ts
+            |-- main.ts
+    |-- build
 ```
 
 ### Scripts
